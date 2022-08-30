@@ -1,7 +1,0 @@
-{
-  "name": "proyectobase",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
-}
