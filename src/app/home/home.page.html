@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="fondo">
+  <br>
+  <h3 style="@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Secular+One&display=swap');font-weight: 500;font-family: 'Alfa Slab One', cursive;"> 
+    Menu
+  </h3>
+  <br><br>
+  
+  
+  <ion-button style="@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Secular+One&display=swap');font-weight: 500;font-family: 'Alfa Slab One', cursive;" [routerLink]="['/horario']" expand="full"color="dark">HORARIO</ion-button>
+  <br>
+  <ion-button style="@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Secular+One&display=swap');font-weight: 500;font-family: 'Alfa Slab One', cursive;"[routerLink]="['/edit-horario']" color="success" expand="full"color="dark">EDITAR HORARIO</ion-button>
+  <br>
+  <ion-button style="@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Secular+One&display=swap');font-weight: 500;font-family: 'Alfa Slab One', cursive;"[routerLink]="['/asistencia']" color="success"expand="full"color="dark">ASISTENCIA</ion-button>
+  <br>
+  <ion-button style="@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Secular+One&display=swap');font-weight: 500;font-family: 'Alfa Slab One', cursive;"[routerLink]="['/perfil']" color="success"expand="full"color="dark">PERFIL</ion-button>
+  <br>
+  <ion-button style="@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Secular+One&display=swap');font-weight: 500;font-family: 'Alfa Slab One', cursive;"[routerLink]="['/scanner']" color="success"expand="full"color="dark">SCANNER</ion-button>
+  <br>
+  <ion-button style="@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Secular+One&display=swap');font-weight: 500;font-family: 'Alfa Slab One', cursive;"[routerLink]="['/gen-qr']" color="success"expand="full"color="dark">GENERAR QR</ion-button>
+  
+</ion-content>
+
